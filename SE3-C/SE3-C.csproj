@@ -47,6 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ejer1.cs" />
+    <Compile Include="ejer2.cs" />
+    <Compile Include="ejer3.cs" />
+    <Compile Include="ejer4.cs" />
+    <Compile Include="ejer5.cs" />
+    <Compile Include="ejer6.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
