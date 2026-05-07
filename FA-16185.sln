@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SE4-C", "SE4-C\SE4-C.csproj
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SE4-PY", "SE4-PY\SE4-PY.pyproj", "{0F8EC0BE-FF0D-43EB-93B2-19BC9D0848F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SE5-C", "SE5-C\SE5-C.csproj", "{A14E1F00-388E-4B80-AB02-4EB23157CDB5}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SE5-P", "SE5-P\SE5-P.pyproj", "{F055F655-EF9E-47FD-8D42-F7BD5DECB380}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,12 @@ Global
 		{00B6AEA4-02C5-49FD-889A-C8CDA8A3F529}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0F8EC0BE-FF0D-43EB-93B2-19BC9D0848F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0F8EC0BE-FF0D-43EB-93B2-19BC9D0848F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A14E1F00-388E-4B80-AB02-4EB23157CDB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A14E1F00-388E-4B80-AB02-4EB23157CDB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A14E1F00-388E-4B80-AB02-4EB23157CDB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A14E1F00-388E-4B80-AB02-4EB23157CDB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F055F655-EF9E-47FD-8D42-F7BD5DECB380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F055F655-EF9E-47FD-8D42-F7BD5DECB380}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
