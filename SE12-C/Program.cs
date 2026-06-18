@@ -19,8 +19,12 @@ namespace SE12_C
                 {
                     case 1: e.insertar(); break;
                     case 2: e.mostrar(); break;
-                    case 3: break;
-                    case 4: break;
+                    case 3:
+                        Console.Write("\nIngrese la edad a eliminar: ");
+                        byte ed = byte.Parse(Console.ReadLine());
+                        e.eliminar(ed);
+                        break;
+                    case 4: e.ordenar(); break;
                     case 5: Environment.Exit(0); break;
                 }
                 Console.Write("\n¿Desea continuar? presione [s]: ");

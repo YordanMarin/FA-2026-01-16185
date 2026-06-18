@@ -35,6 +35,52 @@ namespace SE12_C
                 Console.Write($"{i + 1}\t{edad[i]}\n");
             }
         }
+
+        public int buscar(byte ed)
+        {
+            int indice = -1; //-1 por que no existe indice negativo
+            for(int i = 0;i < edad.Length; i++)
+            {
+                if(edad[i] == ed)
+                {
+                    indice = i;
+                }
+            }
+            return indice;
+        }
+
+        public void eliminar(byte ed)
+        {
+            int eli = buscar(ed);
+
+            if (eli != -1)
+            {
+                for (int i = eli; i<edad.Length-1;i++)
+                {
+                    edad[i] = edad[i+1];
+                }
+                Array.Resize(ref edad, edad.Length - 1);
+                c--;
+                Console.WriteLine("Edad eliminado correctamente.");
+            }
+            else Console.WriteLine("\nError. Edad no existe.");
+        }
+
+        public void ordenar()
+        {
+            for (int i =0; i<edad.Length -1;i++)
+            {
+                for (int j=0;j<edad.Length-1-i;j++)
+                {
+                    if (edad[j] < edad[j+1])
+                    {
+                        byte temp = edad[j];
+                        edad[j] = edad[j+1];
+                        edad[j + 1] = temp;
+                    }
+                }
+            }
+        }
         public int menu()
         {
             Console.WriteLine("BIENVENIDOS AL SISTEMA DE REGISTRO DE EDADES\n");
