@@ -12,7 +12,22 @@ namespace SE12_C
         {
             Estudiantes e = new Estudiantes();
 
-            e.menu();
+            string continuar;
+            do
+            {
+                switch (e.menu())
+                {
+                    case 1: e.insertar(); break;
+                    case 2: e.mostrar(); break;
+                    case 3: break;
+                    case 4: break;
+                    case 5: Environment.Exit(0); break;
+                }
+                Console.Write("\n¿Desea continuar? presione [s]: ");
+                continuar = Console.ReadLine().Trim().ToLower();
+                Console.Clear();
+            } while (continuar=="s");
+            
         }
     }
 }

@@ -5,3 +5,4 @@ C:\Users\UPN\Desktop\FA-2026-01-16185\SE12-C\obj\Debug\SE12-C.csproj.AssemblyRef
 C:\Users\UPN\Desktop\FA-2026-01-16185\SE12-C\obj\Debug\SE12-C.csproj.CoreCompileInputs.cache
 C:\Users\UPN\Desktop\FA-2026-01-16185\SE12-C\obj\Debug\SE12-C.exe
 C:\Users\UPN\Desktop\FA-2026-01-16185\SE12-C\obj\Debug\SE12-C.pdb
+C:\Users\UPN\Desktop\FA-2026-01-16185\SE12-C\obj\Debug\SE12-C.exe.config
