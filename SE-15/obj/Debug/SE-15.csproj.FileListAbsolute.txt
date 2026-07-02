@@ -1,0 +1,8 @@
+C:\Users\UPN\Desktop\FA-2026-01-16185\SE-15\bin\Debug\SE-15.exe.config
+C:\Users\UPN\Desktop\FA-2026-01-16185\SE-15\bin\Debug\SE-15.exe
+C:\Users\UPN\Desktop\FA-2026-01-16185\SE-15\bin\Debug\SE-15.pdb
+C:\Users\UPN\Desktop\FA-2026-01-16185\SE-15\obj\Debug\SE-15.csproj.AssemblyReference.cache
+C:\Users\UPN\Desktop\FA-2026-01-16185\SE-15\obj\Debug\SE-15.csproj.CoreCompileInputs.cache
+C:\Users\UPN\Desktop\FA-2026-01-16185\SE-15\obj\Debug\SE-15.exe
+C:\Users\UPN\Desktop\FA-2026-01-16185\SE-15\obj\Debug\SE-15.pdb
+C:\Users\UPN\Desktop\FA-2026-01-16185\SE-15\obj\Debug\SE-15.exe.config
